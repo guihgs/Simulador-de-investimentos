@@ -1,0 +1,53 @@
+@import './main';
+
+.modal {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99;
+    width: 100%;
+    max-width: 430px;
+    height: 360px;
+    background: $button-background;
+    border-radius: 16px;
+    padding: 25px;
+
+    .modal__content{
+        .modal__brand{
+            color: $primary-color;
+            font-size: 32px;
+            text-align: center;
+            font-weight: 600;
+            margin-bottom: 25px;
+        }
+        .modal__content-text{
+            display: block;
+            color: $primary-color;
+            font-size: 18px;
+            line-height: 27px;
+            margin: 0 auto;
+            padding: 0 20px;
+            font-weight: normal;
+            margin-bottom: 15px;
+        }
+        button {
+            width: 65%;
+            height: 60px;
+            font-size: 1.5em;
+            @include styled-button;
+        
+            &:hover{
+                background-color: $button-text-color;
+                color: $button-text-color;
+                width: 65%;
+                box-shadow: 5px 5px rgba(0, 0, 0, 0.5);
+            }
+        }
+    }
+}
+@import './modal-mobile';

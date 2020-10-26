@@ -1,0 +1,32 @@
+@media all and (max-width: 430px) {
+    .modal {
+        width: 96%;
+        padding: 25px;
+    
+        .modal__content{
+            
+            .modal__content-text{
+                display: block;
+                color: $primary-color;
+                font-size: 18px;
+                line-height: 27px;
+                margin: 0 auto;
+                padding: 0 15px;
+                font-weight: normal;
+                margin-bottom: 15px;
+            }
+
+            button{
+                width: 75%;
+                font-size: 1.2rem;
+            
+                &:hover{
+                    background-color: $button-text-color;
+                    color: $button-text-color;
+                    width: 75%;
+                    box-shadow: 5px 5px rgba(0, 0, 0, 0.5);
+                }
+            }
+        }
+    }
+}

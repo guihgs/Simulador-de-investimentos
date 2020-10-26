@@ -1,0 +1,99 @@
+@media all and (max-width: 1100px) {
+    .main {
+        form {
+            input{
+                width: 80%;
+                height: 45px;
+            }
+            select{
+                width: 80%;
+                height: 45px;
+            }
+            .form__btn{
+                width: 80%;
+            
+                &:hover {
+                    width: 80%; 
+                }
+            }
+        }
+    }
+}
+@media all and (max-width: 900px) {
+    .main {
+        form {
+            input{
+                width: 90%;
+                height: 45px;
+            }
+            select{
+                width: 90%;
+                height: 45px;
+            }
+            .form__btn{
+                width: 90%;
+            
+                &:hover {
+                    width: 90%; 
+                }
+            }
+        }
+    }
+}
+@media all and (max-width: 768px) {
+    .main{
+    .main-brand{
+        font-size: 2.8em;
+    }
+    .main__title{
+        font-size: 2.4em; 
+    }
+    .app-text{
+        width: 85%;
+    }
+    form{
+        width: 95%;
+
+        .form__container{
+            width: 95%;
+        }
+
+        input{
+            width: 60%;
+            height: 60px;
+        }
+
+        select{
+            width: 60%;
+            height: 60px;
+        }
+        .form__btn{
+            width: 60%;
+        
+            &:hover {
+                width: 60%; 
+            }
+        }
+    }
+}}
+@media all and (max-width: 415px) {
+    .main {
+        form {
+            input{
+                width: 80%;
+                height: 60px;
+            }
+            select{
+                width: 80%;
+                height: 60px;
+            }
+            .form__btn{
+                width: 80%;
+            
+                &:hover {
+                    width: 80%; 
+                }
+            }
+        }
+    }
+}
