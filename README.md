@@ -4,12 +4,12 @@
 npm install
 
 ### Para rodar o projeto com hot-reloads
-npm serve
+npm run serve
 ou
 yarn serve
 
 ### Para compilar o projeto para produção
-npm build 
+npm run build 
 ou
 yarn build
 
