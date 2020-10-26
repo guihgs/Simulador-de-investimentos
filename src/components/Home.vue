@@ -5,7 +5,7 @@
         <form @submit="simulateForm">
             <div class="form__container">
                 <input type="text" class="form-control" id="name" placeholder="Nome" v-model="form.name" required/>
-                <input type="number" class="form-control" id="monthly" placeholder="Mensalidade" v-model="form.monthly" required/>
+                <input type="number" class="form-control" id="monthly" placeholder="Mensalidade" v-model="form.monthly" :min="1" required/>
                 <select name="years" class="form-control" id="years" v-model="form.years" required>
                     <option value="">Selecione</option>
                     <option value="12">1 Ano</option>
